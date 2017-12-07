@@ -1,9 +1,8 @@
 html {
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: .875rem;
   background-color: #f2f2f2;
-  color: #333;
 }
 
 *, *::before, *::after {
@@ -14,4 +13,29 @@ h1 {
   display: block;
   font-size: 2rem;
   text-align: center;
+}
+
+.btn {
+  display: inline-block;
+
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  list-style-type: none;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
